@@ -8,6 +8,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import NoSuchElementException
 
 
+
+
+
 driver = webdriver.Chrome('/home/krptic_07/Documents/chromedriver')
 
 driver.get(parameters.search_query['website'])

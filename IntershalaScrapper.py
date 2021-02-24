@@ -8,6 +8,8 @@ writer = csv.writer(open('intershala_companies', 'w'))
 writer.writerow(['Intern Profile', 'Company'])
 
 
+
+
 def validate_field(field):
 
     if field:
